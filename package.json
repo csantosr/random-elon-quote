@@ -1,7 +1,7 @@
 {
-  "name": "random-messages",
+  "name": "random-elon-quote",
   "version": "1.0.0",
-  "description": "Get random messages",
+  "description": "Get random quote from Elon Musk",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,16 @@
   "keywords": [
     "javascript",
     "node",
-    "npm"
+    "npm",
+    "Elon Musk"
   ],
   "author": "Cristian Fernando Santos <santosriberofernando@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "random-elon-quote": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }
